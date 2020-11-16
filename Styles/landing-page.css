@@ -1,6 +1,6 @@
 #landing-page {
     display: grid;
-    grid-template-columns: 62% 1fr;
+    grid-template-columns: 60% 1fr;
     grid-template-rows: 20% 80%;
     height: 100vh;
 }
@@ -10,20 +10,54 @@
 nav {
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
+    align-items: center;
     justify-content: space-between;
     grid-area: 1/1/2/2;
 }
 
-nav h1, nav button {
-    padding: 50px;
+.title-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.title-box p {
+    font-size: 25px;
+    font-weight: 900;
+    color: #ee6f57;
+    margin-left: 50px;
+    font-family: 'Monsterrat', Courier, monospace;
+    font-style: italic;
 }
 
 h1 {
     font-family: Lobster, Courier, monospace;
     font-weight: 700;
-    font-size: 40px;
-    color: rgb(226, 147, 1);
+    font-size: 6em;
+    color: #14274e;
+    margin-left: 50px;
+}
+
+nav button {
+    border: 2px dashed black;
+    border-radius: 10px;
+    width: 200px;
+    padding: 15px;
+    outline: none;
+    background-color: #f1f6f9;
+    letter-spacing: 1px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: all 0.4s ease 0s;
+    align-self: center;
+}
+
+nav button:hover {
+    background: #394867;
+    color: #f1f6f9;
+    letter-spacing: 2px;
+    box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+    transition: all 0.4s ease 0s;
+    border: 2px solid black;
 }
 
 /* Image */
@@ -36,4 +70,31 @@ h1 {
 #hero-image img {
     height: 100vh;
     width: auto;
+}
+
+/* Landing page */
+
+#intro-text {
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#intro-text p {
+    font-size: 65px;
+    font-family: 'Monsterrat', Courier, monospace;
+}
+
+#intro-text p span {
+    color: #394867;
+    font-size: 90px;
+    font-weight: bold;
+    font-family: 'Galada', Courier, monospace;
+    letter-spacing: 6px;
+}
+
+#intro-text .period {
+    color: #ee6f57;
 }
