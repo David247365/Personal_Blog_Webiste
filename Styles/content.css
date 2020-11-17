@@ -7,6 +7,8 @@
     align-content: space-evenly;
     flex-wrap: wrap;
     background-image: url(/Assets/pexels-simon-matzinger-1026042.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .card {
