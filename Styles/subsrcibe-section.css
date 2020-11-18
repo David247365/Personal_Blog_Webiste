@@ -1,7 +1,27 @@
 .subscribe {
-    height: 80vh;
+    height: 85vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
+}
+
+.subscribe-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+}
+
+.subscribe-text p:nth-child(1) {
+    font-size: 60px;
+}
+
+.subscribe-text p:nth-child(1) .period {
+    color: #ee6f57;
 }
 
 footer {
-    height: 20vh;
+    height: 15vh;
+    background-color: #122244;
 }
