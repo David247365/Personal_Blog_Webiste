@@ -1,12 +1,17 @@
 @import url(/Styles/landing-page.css);
 @import url(/Styles/content.css);
 @import url(/Styles/subsrcibe-section.css);
+@import url(/Styles/blog-page.css);
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Libre Baskerville', Courier, monospace;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 body {
