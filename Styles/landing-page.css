@@ -124,6 +124,10 @@ nav button:hover {
     animation-direction: alternate;
 }
 
+#intro-text a {
+    text-align: center;
+}
+
 @keyframes arrow {
     100%{transform: translateY(20px);}
 }

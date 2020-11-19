@@ -4,14 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ipso Facto</title>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
     <link rel="stylesheet" href="/Styles/styles.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="<link rel="preconnect" href="https://fonts.gstatic.com">
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=GFS+Didot&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link href="<link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link href="https://fonts.googleapis.com/css2?family=GFS+Didot&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 </head>
 <body>
     <div id="landing-page">
@@ -20,20 +26,20 @@
                 <h1>IPSO FACTO</h1>
                 <p>A Blog On Philosophers</p>
             </div>
-            <button>Subscribe</button>
+            <a href="#sub-section"><button>Subscribe</button></a>
         </nav>
         <div id="intro-text">
             <p>Let's search for meaning, </br><span>together<span class="period">.</span></span></p>
             <div class="to-blogs-link">
                 <p>Go to blogs</p>
-                <img src="/Assets/download-arrow.svg" alt="Down Arrow">
+                <a href="#blogs"><img src="/Assets/download-arrow.svg" alt="Down Arrow"></a>
             </div>
         </div>
         <div id="hero-image">
             <img src="/Assets/pexels-zack-jarosz-1727658.jpg" alt="photo of a statue">
         </div>
     </div>
-    <section class="content">
+    <section class="content" id="blogs">
         <a class="card">
             <img src="/Assets/pexels-andreea-ch-1251720.jpg" alt="Photo of a statue">
             <p>ARISTOTLE</br>(384–322 BCE)</p>
@@ -51,25 +57,27 @@
             <p>KARL MARX</br>(1818–83)</p>
         </a>
     </section>
-    <section class="subscribe">
+    <section class="subscribe" id="sub-section">
         <section class="subscribe-text">
             <p>Let's keep in touch<span class="period">.</span></p>
-            <p>Subscribe to our email list to recieve emails when we publish new blogs.</p>
+            <p>Subscribe to our email list to recieve updates when we publish new blogs.</p>
         </section>
         <form action="">
-            <label for="name">First Name:</label>
-            <input type="text" name="name" id="name">
-            <label for="email">Email:</label>
-            <input type="text" name="email" id="email">
-            <button type="submit">Subscribe</button>
+            <div class="subscribe-form">
+                <label for="name">First Name:</label>
+                <input type="text" name="name" id="name">
+                <label for="email">Email:</label>
+                <input type="text" name="email" id="email">
+                <button type="submit">Subscribe</button>
+            </div>
         </form>
     </section>
     <footer>
-        <p>copyright</p>
+        <p>Copyright &#169 2020</p>
         <ul>
-            <li>linkedin</li>
-            <li>twitter</li>
-            <li>github</li>
+            <li><a href="https://www.linkedin.com/in/david-soto-997a501a2/" target="_blank"><i class="fab fa-linkedin fa-3x"></i></a></li>
+            <li><a href="https://twitter.com/DavidsJourney23" target="_blank"><i class="fab fa-twitter-square fa-3x"></i></a></li>
+            <li><a href="https://github.com/David247365" target="_blank"><i class="fab fa-github-square fa-3x"></i></a></li>
         </ul>
     </footer>
 </body>
