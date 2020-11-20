@@ -86,10 +86,7 @@
 }
 
 @media(max-width: 650px) {
-    .content {
-        display: none;
-    }
-
+    
     .title-box {
         margin: -35px auto;
     }
