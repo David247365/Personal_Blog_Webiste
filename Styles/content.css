@@ -65,10 +65,11 @@
         flex-direction: column;
         flex-wrap: nowrap;
         background-image: none;
+        width: 100%;
     }
 
     .card {
-        height: 200px;
+        height: 235px;
         width: 100%;
         border-radius: 0;
         box-shadow: none;
@@ -86,7 +87,7 @@
     }
 
     .card p {
-        margin-top: -130px;
+        margin-top: -150px;
         font-size: 30px;
     }
 }
