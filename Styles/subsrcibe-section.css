@@ -120,6 +120,7 @@ footer a:visited {
         display: grid;
         grid-template-columns: 100%;
         grid-template-rows: 40% 50% 10%;
+        font-size: 30px;
     }
 
     .subscribe-text {
