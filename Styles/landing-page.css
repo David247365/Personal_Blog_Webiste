@@ -18,6 +18,7 @@ nav {
 .title-box {
     display: flex;
     flex-direction: column;
+    flex-wrap: nowrap;
 }
 
 .title-box p {
@@ -77,6 +78,7 @@ nav button:hover {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    margin-left: 40px;
 }
 
 @keyframes fade{
@@ -91,7 +93,6 @@ nav button:hover {
 
 #intro-text p {
     font-size: 65px;
-
 }
 
 #intro-text p span {
@@ -138,4 +139,69 @@ nav button:hover {
     flex-direction: column;
     align-items: center;
     margin-top: 50px;
+}
+
+/* Media Queries */
+
+
+@media (max-width: 1370px) {
+
+    #landing-page {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 20% 80%;
+        height: 100vh;
+    }
+    
+    #hero-image {
+        display: none;
+    }
+
+    nav button {
+        margin-right: 150px;
+    }
+}
+
+@media (max-width: 1045px) {
+
+    .title-box {
+        margin: 0 auto;
+    }
+
+    nav button {
+        display: none;
+    }
+
+    #intro-text {
+        text-align: center;
+    }
+}
+
+@media (max-width: 650px) {
+    h1 {
+        margin-left: 0;
+    }
+
+    nav {
+        text-align: center;
+        margin-top: 90px;
+    }
+
+    .title-box p {
+        margin-left: 0;
+    }
+
+    #intro-text {
+        margin-left: 0;
+    }
+
+    #intro-text p {
+        margin: 0 auto;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    #intro-text p span {
+        font-size: 35px;
+    }
 }
